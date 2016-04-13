@@ -14,10 +14,10 @@ export default Ember.Route.extend({
       newQuestion.save();
       this.transitionTo('index');
     },
-    save5(newValue) {
-      var updateRating = this.store.updateRecord('question', params);
-      updateRating.save();
-      this.transitionTo('index');
-    }
+    // save5(newValue) {
+    //   var updateRating = this.store.updateRecord('question', params);
+    //   updateRating.save();
+    //   this.transitionTo('index');
+    // }
   }
 });
